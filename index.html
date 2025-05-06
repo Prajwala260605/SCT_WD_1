@@ -1,27 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Interactive Navbar</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Landing Page</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <nav id="navbar">
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Services</a></li>
-      <li><a href="#">Contact</a></li>
-    </ul>
-  </nav>
+  <!-- Fixed Navigation -->
+  <header id="navbar">
+    <div class="logo">MySite</div>
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <div class="content">
-    <h1>Scroll down to see the navbar effect</h1>
-    <p>...</p> <!-- Add long content to enable scrolling -->
-  </div>
+  <!-- Page Sections -->
+  <section id="home" class="section">Welcome to Home</section>
+  <section id="features" class="section">Our Features</section>
+  <section id="about" class="section">About Us</section>
+  <section id="contact" class="section">Contact Info</section>
 
   <script src="script.js"></script>
 </body>
 </html>
+
